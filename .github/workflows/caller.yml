@@ -9,5 +9,3 @@ jobs:
     uses: devops-max/simple-java-maven-app/.github/workflows/reusable.yml@master
     with:
       username: Harry
-    secrets:
-      envPAT: ${{ secrets.envPAT }}
