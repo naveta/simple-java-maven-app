@@ -8,4 +8,4 @@ jobs:
   call-workflow-passing-data:
     uses: devops-max/simple-java-maven-app/.github/workflows/reusable.yml@master
     with:
-      username: Harry
+      runs-on: self-hosted
