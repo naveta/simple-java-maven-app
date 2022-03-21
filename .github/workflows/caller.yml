@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: .github/workflows/reusable.yml@master
+    uses: devops-max/simple-java-maven-app/.github/workflows/reusable.yml@master
     with:
       username: Harry
     secrets:
