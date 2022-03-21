@@ -6,7 +6,7 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: ./github/workflow/reusable.yml
+    uses: ./github/workflow/reusable.yml@master
     with:
       username: Harry
     secrets:
