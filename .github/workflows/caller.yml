@@ -1,0 +1,13 @@
+name: Caller
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-passing-data:
+    uses: .github/workflows/reusable.yml@master
+    with:
+      username: Harry
+    secrets:
+      envPAT: ${{ secrets.envPAT }}
