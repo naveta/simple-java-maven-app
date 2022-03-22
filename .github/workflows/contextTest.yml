@@ -1,4 +1,4 @@
-name: Context test
+name: Context test naveta
 on: push
 
 jobs:
