@@ -27,8 +27,8 @@ jobs:
       
     - name: The job has succeeded 
       if: ${{ success() }}
-      run: echo 'Job Success
+      run: echo 'Job Success'
       
     - name: The job has failued 
       if: ${{ failure() }}
-      run: echo 'Job Failed
+      run: echo 'Job Failed'
